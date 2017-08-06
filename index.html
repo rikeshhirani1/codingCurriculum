@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> 
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style_sheet.css">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="images/favicon.png" type="image/png" />
+        <title>Coding Curriculum</title>
+        <script src="hover_effect.js"></script>
+    </head>
+    <body>
+        <a id="top"></a>
+        <div id="header">
+            <p class="web_title">CODING CURRICULUM</p>
+            <a href="http://www.ucl.ac.uk" target="_blank"><img id="ucl_logo" src="standalone.png" draggable="false"/></a>
+        </div>
+ 
+        <div class="navbar navbar-default navbar-sm" id="menu_bar">
+            <div id="small_menu">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#" id="menu_bar_title">MENU</a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>                        
+                    </button>
+                </div>  
+            </div>
+ 
+            <div class="navbar-collapse collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li><a href="coding_curriculum.html">HOME</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">TOUCHDEVELOP
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu" id="dropdown_menu">
+                            <li id="dropdown_text"><a href='projects/TD3/index.html' target="_blank">Team 3</a></li>
+                            <li id="dropdown_text"><a href='projects/TD5/index.html' target="_blank">Team 5</a></li>
+                            <li id="dropdown_text"><a href='projects/TD6/index.html' target="_blank">Team 6</a></li>
+                            <li id="dropdown_text"><a href='projects/TD8/index.html' target="_blank">Team 8</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">PYTHON
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu" id="dropdown_menu">
+                            <li id="dropdown_text"><a href='projects/PY1/index.html' target="_blank">Team 1</a></li>
+                            <li id="dropdown_text"><a href='projects/PY2/index.html' target="_blank">Team 2</a></li>
+                            <li id="dropdown_text"><a href='projects/PY3/index.html' target="_blank">Team 3</a></li>
+                            <li id="dropdown_text"><a href='projects/PY4/index.html' target="_blank">Team 4</a></li>
+                            <li id="dropdown_text"><a href='projects/PY5/index.html' target="_blank">Team 5</a></li>
+                            <li id="dropdown_text"><a href='projects/PY6/01-Introduction.html' target="_blank">Team 6</a></li>
+                            <li id="dropdown_text"><a href='projects/PY7/index.html' target="_blank">Team 7</a></li>
+                        </ul> 
+                    </li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">HTML5/JS
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu" id="dropdown_menu">
+                            <li id="dropdown_text"><a href='projects/HT2/Scheme.html' target="_blank">Team 2</a></li>
+                            <li id="dropdown_text"><a href='projects/HT5/index.html' target="_blank">Team 5</a></li>
+                            <li id="dropdown_text"><a href='projects/HT6/scenario2.html' target="_blank">Team 6</a></li>
+                            <li id="dropdown_text"><a href='projects/HT7/index.html' target="_blank">Team 7</a></li>
+                        </ul>  
+                    </li>
+                    <li><a href="coding_curriculum.html#bottom">CONTACT US</a></li>
+                </ul>          
+            </div>
+        </div>
+     
+        <div class="container-fluid">   
+            <div id="about_section">
+                <h1>About </h1>
+                <p>
+                The Coding Curriculum Project, now in its Second Year of running, organises all the BSc and MEng
+                Computer Science first years to work in teams to develop and publish programming materials for
+                school children. The publication is in the form of chapters, each on a particular topic that can be
+                combined into a coherent publication such as a book or website. <br><br>                The emphasis of each chapter is to present the following three progression outlines:<br>
+                <b id="bullet_pt">1. </b><b>  Scaffolding</b> - the facts and basic principles of programming<br>
+                <b id="bullet_pt">2. </b><b> Discovery</b> - how you can apply the scaffolding to work on small examples and experiments,
+                   to reinforce the learning <br>
+                <b id="bullet_pt">3. </b><b>Innovation</b> - tips and tricks, to show what has been mastered in programming, and can be                    explained to other learners to help them reach that far<br><br>
+                Each Team was assigned to work with one of the following three languages: <br>
+                <b id="bullet_pt">1. </b> HTML5, CSS3 and JavaScript <br>
+                <b id="bullet_pt">2. </b><a id="underline_link" href="http://www.touchdevelop.com" target="_blank">Microsoft TouchDevelop</a> and our Engduino (C++) <br>
+                <b id="bullet_pt">3. </b>Python with or without the Raspberry Pi <br>
+                </p>
+            </div>
+
+            <div id="project_section">
+                <h1>Projects</h1>
+    
+                <p id="text_underline">TouchDevelop</p>
+                <div id="touchdevelop_tiles">
+                    <div class="row">   
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <a href="projects/TD3/index.html" target="_blank">
+                                <div id="tile_content_td" class="team_td3">
+                                    <div id="tile_text_td">
+                                        <img id="preview_img" class ="team_td_img3" src="images/td3.jpg" draggable="false">
+                                        <div id="hover_text" class="team_td_txt3">
+                                            In this Project, you will begin to experiment with the use of the Engduino to 
+                                            capture biometric data such as heart rate, body heat and number of steps taken. 
+                                        </div>
+                                    </div>
+                                    <div id="tile_heading_td"><p class="project_title">TEAM 3</p></div>
+                                </div>
+                            </a>
+                        </div>
+     
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <a href="projects/TD5/index.html" target="_blank"> 
+                                <div id="tile_content_td" class="team_td5">
+                                    <div id="tile_text_td">
+                                        <img id="preview_img" class ="team_td_img5" src="images/td5.jpg" draggable="false">
+                                        <div id="hover_text" class="team_td_txt5">
+                                            Using TouchDevelop you will program the Engduino to do a variety of useful things, 
+                                            and challenge yourself to come up with your own innovative uses. 
+                                        </div>
+                                    </div>
+                                    <div id="tile_heading_td"><p class="project_title">TEAM 5</p></div>
+                                </div>
+                            </a>
+                        </div>
+      
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <a href="projects/TD6/index.html" target="_blank">
+                                <div id="tile_content_td" class="team_td6">
+                                    <div id="tile_text_td">
+                                        <img id="preview_img" class ="team_td_img6" src="images/td6.jpg" draggable="false">
+                                        <div id="hover_text" class="team_td_txt6">
+                                            Learn TouchDevelop by programming the Engduino's Lights, 
+                                            Temperature Sensors and Buttons.
+                                        </div>
+                                    </div>
+                                    <div id="tile_heading_td"><p class="project_title">TEAM 6</p></div>
+                                </div>
+                            </a> 
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <a href="projects/TD8/index.html" target="_blank">
+                                <div id="tile_content_td" class="team_td8">
+                                    <div id="tile_text_td">
+                                        <img id="preview_img" class ="team_td_img8" src="images/td8.jpg" draggable="false">
+                                        <div id="hover_text" class="team_td_txt8">
+                                            Using TouchDevelop you will focus on two main parts of the Engduino - LEDs 
+                                            and Accelerometers and the STEM principles such as the 
+                                            Maths and Physics behind the Accelerometer. 
+                                        </div>
+                                    </div>  
+                                    <div id="tile_heading_td"><p class="project_title">TEAM 8</p></div>
+                                </div>
+                            </a> 
+                        </div>
+                    </div>    
+                </div>
+  
+                <br>
+                <p id="text_underline">Python</p>
+                <div id="phyton_tiles">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <a href="projects/PY1/index.html" target="_blank">
+                                <div id="tile_content_py" class="team_py1">
+                                    <div id="tile_text_py">
+                                        <img id="preview_img" class ="team_py_img1" src="images/py1.jpg" draggable="false">
+                                        <div id="hover_text" class="team_py_txt1">
+                                            Develop your confidence in Python by following a character called Perez and 
+                                            applying programming to real life problems.
+                                        </div>
+                                    </div>
+                                    <div id="tile_heading_py">
+                                        <p class="project_title">TEAM 1</p>
+                                        <p id="yellow_star"> 
+                                        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <a href="projects/PY2/index.html" target="_blank">
+                                <div id="tile_content_py" class="team_py2">
+                                    <div id="tile_text_py">
+                                        <img id="preview_img" class ="team_py_img2" src="images/py2.jpg" draggable="false">
+                                        <div id="hover_text" class="team_py_txt2">
+                                            This project is based on one of the main areas of research in Computer Science, 
+                                            Cryptography. This project introduces the concept of Morse code, 
+                                            first on paper then moves on to code. 
+                                        </div>
+                                    </div>
+                                    <div id="tile_heading_py"><p class="project_title">TEAM 2</p></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <a href="projects/PY3/index.html" target="_blank">
+                                <div id="tile_content_py" class="team_py3">
+                                    <div id="tile_text_py">
+                                        <img id="preview_img" class ="team_py_img3" src="images/py3.jpg" draggable="false">
+                                        <div id="hover_text" class="team_py_txt3">
+                                            This Project revolves around using a mini computer called a Raspberry Pi to run the 
+                                            game Minecraft. Through teaching how to code, 
+                                            kids should be able to build and design complex structures easily and 
+                                            efficiently through Python. 
+                                        </div>
+                                    </div>
+                                    <div id="tile_heading_py"><p class="project_title">TEAM 3</p></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <a href="projects/PY4/index.html" target="_blank">
+                                <div id="tile_content_py" class="team_py4">
+                                    <div id="tile_text_py">
+                                        <img id="preview_img" class ="team_py_img4" src="images/py4.jpg" draggable="false">
+                                        <div id="hover_text" class="team_py_txt4">
+                                            Develop a Program that generates anagrams of a user-entered word by using 
+                                            programming skills you have already learned, ones you are about to learn and your 
+                                            own problem solving skills.
+                                        </div>
+                                    </div>
+                                    <div id="tile_heading_py"><p class="project_title">TEAM 4</p></div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <a href="projects/PY5/index.html" target="_blank">
+                                <div id="tile_content_py" class="team_py5">
+                                    <div id="tile_text_py">
+                                        <img id="preview_img" class ="team_py_img5" src="images/py5.jpg" draggable="false">
+                                        <div id="hover_text" class="team_py_txt5">
+                                            Learn Python by implementing Djikstra’s Algorithm to create a simpliﬁed 
+                                            version of the TFL Journey Planner.
+                                        </div>
+                                    </div>
+                                    <div id="tile_heading_py"><p class="project_title">TEAM 5</p></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <a href="projects/PY6/01-Introduction.html" target="_blank">
+                                <div id="tile_content_py" class="team_py6">
+                                    <div id="tile_text_py">
+                                        <img id="preview_img" class ="team_py_img6" src="images/py6.jpg" draggable="false">
+                                        <div id="hover_text" class="team_py_txt6">
+                                            In this project, Students will write a program which can render and solve the 
+                                            Tower of Hanoi puzzle.
+                                        </div>
+                                    </div>
+                                    <div id="tile_heading_py"><p class="project_title">TEAM 6</p></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <a href="projects/PY7/index.html" target="_blank">
+                                <div id="tile_content_py" class="team_py7">
+                                    <div id="tile_text_py" >
+                                        <img id="preview_img" class ="team_py_img7" src="images/py7.jpg" draggable="false">
+                                        <div id="hover_text" class="team_py_txt7">
+                                            This Project involves recreating a familiar puzzle and making it your own, 
+                                            all the while by learning a New Programming Language.
+                                        </div>
+                                    </div>
+                                    <div id="tile_heading_py"><p class="project_title">TEAM 7</p></div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <a href="projects/PY1/index.html" target="_blank">
+                                <div id="tile_content_py_solid">
+                                    <div id="hover_text"> 
+                                        <span id="yellow_star" class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                        <span id="yellow_star" class="glyphicon glyphicon-star" aria-hidden="true"></span> 
+                                        <span id="yellow_star" class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                                        <br>
+                                        We are Proud to Announce that this Year’s Project Winners were Python Project TEAM 1 
+                                        <br>
+                                        <b id="underline_link">Click Here to View Project!</b>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <p id="text_underline">HTML5/JS</p>
+                <div id="html_tiles">
+                     <div class="row">
+                         <div class="col-xs-12 col-sm-6 col-md-3">
+                             <a href="projects/HT2/Scheme.html" target="_blank">
+                                 <div id="tile_content_ht" class="team_ht1">
+                                     <div id="tile_text_ht">
+                                         <img id="preview_img" class ="team_ht_img1" src="images/ht2.jpg" draggable="false">
+                                         <div id="hover_text" class="team_txt_ht1">
+                                             Learn HTML, CSS and JavaScript by creating a fully fledged Social Media 
+                                             Profile with Profile and Cover Photo, Interactive photo gallery and a Menu Bar.
+                                         </div>
+                                     </div>
+                                    <div id="tile_heading_ht"><p class="project_title">TEAM 2</p></div>
+                                 </div>
+                            </a>
+                         </div>
+                         <div class="col-xs-12 col-sm-6 col-md-3">
+                             <a href="projects/HT5/index.html" target="_blank">
+                                 <div id="tile_content_ht" class="team_ht2">
+                                     <div id="tile_text_ht">
+                                         <img id="preview_img" class ="team_ht_img2" src="images/ht5.jpg" draggable="false">
+                                         <div id="hover_text" class="team_ht_txt2">
+                                             Develop your knowledge in HTML and JavaScript, by making a very simple Lunar Lander 
+                                             Game.
+                                         </div>
+                                     </div>
+                                     <div id="tile_heading_ht"><p class="project_title">TEAM 5</p></div>
+                                 </div>
+                             </a>
+                         </div>
+                         <div class="col-xs-12 col-sm-6 col-md-3">
+                             <a href="projects/HT6/scenario2.html" target="_blank">
+                                 <div id="tile_content_ht" class="team_ht3">
+                                     <div id="tile_text_ht">
+                                         <img id="preview_img" class ="team_ht_img3" src="images/ht6.jpg" draggable="false">
+                                         <div id="hover_text" class="team_ht_txt3">
+                                             Develop your knowledge in HTML, CSS and JavaScript, by creating your own Cooking Recipe Website, 
+                                             Goal Shooting Game and Graphs to represent data.
+                                         </div>
+                                     </div>
+                                     <div id="tile_heading_ht"><p class="project_title">TEAM 6</p></div>
+                                 </div>
+                             </a>
+                         </div>
+                         <div class="col-xs-12 col-sm-6 col-md-3">
+                             <a href="projects/HT7/index.html" target="_blank">
+                                 <div id="tile_content_ht" class="team_ht4">
+                                     <div id="tile_text_ht">
+                                         <img id="preview_img" class ="team_ht_img4" src="images/ht7.jpg" draggable="false">
+                                         <div id="hover_text" class="team_ht_txt4">
+                                             In this Project, you will learn and use your current knowledge of HTML, CSS and JavaScript to 
+                                             create Data Visualisers to represent Data.
+                                         </div>
+                                     </div>
+                                     <div id="tile_heading_ht"><p class="project_title">TEAM 7</p></div>
+                                 </div>
+                             </a>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <br><br>
+        <div id="top_text"><a href="#top">Back to Top</a></div>
+        <div id="footer">
+            <div id="contact">
+                 <b>Rae Harbird</b> <br>
+                 Department of Computer Science <br>
+                 University College London <br>
+                 Gower Street <br>
+                 London <br>
+                 WC1E 6BT <br>
+                <span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span> Telephone Number: +44 (0)20 7679 0382 <br>
+                <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Email Address: r.harbird@cs.ucl.ac.uk
+            </div>
+            <div id="designer_details">Website Designed By <b id="text_underline">Rikesh Hirani</b></div>
+            <a id="bottom"></a>
+        </div>
+
+    </body>
+</html>
